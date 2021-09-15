@@ -14,7 +14,7 @@ O propósito desse repositório foi o aprendizado, e com auxílio do e-book [Con
 
 ## Ferramentas utilizadas
 
-Houve uma adaptação do projeto original que usa Javascript, Mocha e Chai, portanto optei a utilizar um conjunto um pouco diferente mas que traz o mesmo resultado ou até melhor, são eles o Typescript e Jest.
+Houve uma adaptação do projeto original que usa Javascript, Mocha e Chai, portanto optei utilizar algumas ferramentas um pouco diferente mas que traz o mesmo resultado ou até melhor, são eles o Typescript e Jest.
 
 ### Projeto original
 
