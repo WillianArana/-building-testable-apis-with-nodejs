@@ -1,0 +1,27 @@
+{
+  "extends": [
+    "./node_modules/eslint-config-airbnb-base/rules/best-practices.js",
+    "./node_modules/eslint-config-airbnb-base/rules/errors.js",
+    "./node_modules/eslint-config-airbnb-base/rules/node.js",
+    "./node_modules/eslint-config-airbnb-base/rules/style.js",
+    "./node_modules/eslint-config-airbnb-base/rules/variables.js",
+    "./node_modules/eslint-config-airbnb-base/rules/es6.js",
+    "./node_modules/eslint-config-airbnb-base/rules/strict.js",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "project": "./tsconfig.json"
+  },
+  "plugins": ["@typescript-eslint"],
+  "rules": {
+    "lines-between-class-members": "off",
+    "no-underscore-dangle": "off"
+  },
+  "env": {
+    "browser": false,
+    "node": true,
+    "jest": true
+  }
+}

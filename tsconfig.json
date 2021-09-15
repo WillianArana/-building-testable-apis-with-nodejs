@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "allowSyntheticDefaultImports": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "pretty": true,
+    "strictNullChecks": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "noUnusedLocals": true,
+    "noImplicitReturns": true,
+    "outDir": "dist/bin",
+    "rootDirs": ["src", "test"],
+    "baseUrl": ".",
+    "typeRoots": ["node_modules/@types"],
+    "paths": {
+      "*": ["node_modules/*"],
+      "../*": ["src/*"]
+    }
+  },
+  "outFile": "api-tst.js",
+  "lib": ["es6"],
+  "compileOnSave": true,
+  "include": [  "src/**/*"],
+  "exclude": ["node_modules", ".vscode", "dist", "test/**/*"]
+}

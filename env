@@ -1,0 +1,8 @@
+#MONGO
+DB_HOST='localhost'
+DB_USERNAME='root'
+DB_PASS='root'
+DB_DATABASE='test'
+DB_PORT=27017
+AUTH_KEY='thisisaverysecurekey'
+AUTH_TOKEN_Expires_In='7d'
