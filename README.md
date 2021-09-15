@@ -6,7 +6,7 @@
 
 # Construindo APIs testáveis com Node.js
 
-Projeto criado para aprimorar técnicas de teste e desenvolvimento em APIs.
+Projeto criado para aprimorar técnicas de teste em APIs.
 
 ## Sobre
 
